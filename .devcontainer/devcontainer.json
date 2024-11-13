@@ -1,0 +1,10 @@
+{
+  "name": "Node.js & MongoDB Environment",
+  "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:0-18", 
+  "features": {
+    "ghcr.io/devcontainers/features/mongodb:1": {
+      "version": "latest"
+    }
+  },
+  "postCreateCommand": "npm install"
+}
